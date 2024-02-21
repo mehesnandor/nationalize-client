@@ -70,6 +70,11 @@ public class Nationality {
             this.probability = probability;
         }
 
+        @Override
+        public String toString() {
+            return ReflectionToStringBuilder.toString(this, ToStringStyle.NO_CLASS_NAME_STYLE);
+        }
+
     }
 
     @Override
